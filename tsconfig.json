@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",        
+    "module": "ESNext",
+    "lib": [
+      "DOM",
+      "ES2020"
+    ],
+    "moduleResolution": "Node",
+    "strict": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src",
+    "test"
+  ]
+}
