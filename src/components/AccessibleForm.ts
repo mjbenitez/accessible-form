@@ -104,7 +104,7 @@ export class AccessibleForm extends LitElement {
         @submit=${(e: Event) => e.preventDefault()} 
         novalidate               
       >
-        <h2 id="formTitle">User Info Form</h2>
+        <h2 id="formTitle">Accessible Form</h2>
         
         <div class="form-group">
           <label for="name">Name</label> 

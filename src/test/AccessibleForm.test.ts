@@ -26,7 +26,7 @@ describe('AccessibleForm', () => {
     
     const title = el.shadowRoot!.querySelector('h2#formTitle');
     expect(title).to.exist;
-    expect(title!.textContent).to.equal('User Info Form');
+    expect(title!.textContent).to.equal('Accessible Form');
   });
 
 it('should show error state accessibly', async () => {

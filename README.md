@@ -19,7 +19,7 @@ This project is a simple, accessible web form built using [Lit](https://lit.dev)
 │       └── accessible-form.ts        # Lit web component
 |   └── test
 │       └── accessible-form.test.ts   # Accessibility test using axe-core
-├── vitest.config.ts              # Vitest setup with jsdom
+├── vite.config.ts                # Vite setup with jsdom
 ├── index.html                    # Demo entry point
 ├── tsconfig.json                 # TypeScript configuration
 └── package.json                  # Project dependencies and scripts
